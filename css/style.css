@@ -59,13 +59,13 @@ section h1{
     flex-direction: row;
     justify-content: center;
     width: 100vw;
-    gap: 50px;   
+    gap: 25px;   
 }
 
 /* first block design */
 #block1{
     /* border: 1px solid black; */
-    width: 15vw;
+    width: 16vw;
     height: 255px;
     background-color:#00CCB1 ;
     border-radius: 10px;
@@ -76,7 +76,7 @@ section h1{
     padding: 50px;
     font-size: 21px;
     font-weight: 300;
-    gap: 50px;
+    gap: 25px;
     margin-left: 20px;
     align-items: center;
 }
@@ -87,7 +87,8 @@ section h1{
 #block1 h1{
     font-size: 34px;
     font-weight: 400;
-    color: #ffffff; 
+    color: #ffffff;
+    line-height: 25px; 
     
 }
 #block1 nav{
@@ -97,13 +98,14 @@ section h1{
 #block1 a{
     color: #ffffff;
     text-wrap: 10px;
+    font-size: 21px;
 
 }
 
 /* Second block desing */
 #block2{
     /* border: 1px solid black; */
-    width: 12vw;
+    width: 15vw;
     height: 255px;
     background-color:#3D83DF ;
     border-radius: 10px;
@@ -114,8 +116,26 @@ section h1{
     font-weight: 300;
     margin-left: 20px;
     align-items: center;
+    gap: 25px;
     
 }
+#block2 h1{
+    font-size: 34px;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 41px;
+}
+#bock2 nav{
+    padding-top: 5px;
+    color: #ffffff;
+}
+#block2 a{
+    color: #ffffff;
+    text-wrap: 10px;
+    margin-top: 10px;
+    font-size: 21px;
+}
+
 
 #block3{
     /* border: 1px solid black; */
@@ -130,22 +150,77 @@ section h1{
     font-size: 21px;
     font-weight: 300;
     margin-right: 20px;
-    
-    
+    gap: 25px;  
 }
 #block3 h1{
     /* font-family: "Work Sans", Arial, sans-serif;; */
     font-size: 34px;
     font-weight: 400;
     color: #ffffff;
+    line-height: 41px;
 }
-#block3 nav{
-    padding-top: 30px;
-    color: #ffffff;
+
+#block3 p{
+color: #ffffff;
+/* margin-bottom: 50px; */
 }
-#block3 a{
+
+/* select design */
+#select1{
+    text-decoration: underline;
+    border: none;
     color: #ffffff;
-    text-wrap: 10px;
-    /* padding-top:10px ; */
-    margin-top: 10px;
+    font-size: 21px;
+    font-weight: 300;
+    background: none;
+}
+#select1 option{
+    color: black;
+    font-weight: 300;
+    font-size: 21px;
+    background-color:#00CCB1;
+
+}
+
+#select2{
+    text-decoration: underline;
+    border: none;
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: 300;
+    background: none;
+}
+#select2 option{
+    color: black;
+    font-weight: 300;
+    font-size: 21px;
+    background-color: #3D83DF;
+}
+#select3{
+    text-decoration: underline;
+    border: none;
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: 300;
+    background: none;
+}
+#select3 option{
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 21px;
+    background-color: #1B2734;
+}
+#select4{
+    text-decoration: underline;
+    border: none;
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: 300;
+    background: none;
+}
+#select4 option{
+    color:#ffffff;
+    font-weight: 300;
+    font-size: 21px;
+    background-color: #1B2734;
 }
