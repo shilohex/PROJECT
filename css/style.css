@@ -266,6 +266,7 @@ color: #ffffff;
     width: 40%;
     padding-top:30px ;
     row-gap: 30px;
+    margin-bottom: 30px;
     column-gap: 30px;
     /* padding-bottom: 20px; */
 
@@ -278,5 +279,49 @@ color: #ffffff;
 #large{
     background-color: #D0FAF4;
     display: flex;
+    border: 1px solid black;
+    height: 600px;
+    position: relative;
     
 }
+#largelogo{
+    border: 1px solid black ;
+    
+    
+
+}
+#logoimg{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin-top: 218px;
+    justify-content: end;
+    width: 35%;
+    align-self: baseline;
+}
+
+/* designing box */
+#box1{
+    border: 1px solid black;
+    display: flex;
+
+}
+#box2{
+    border: 1px solid black;
+    display: flex;
+}
+#box3{
+    border: 1px solid black;
+    display: flex;
+
+}
+#box4{
+    border: 1px solid black;
+    display: flex;
+}
+
+
+
+
+    
+
