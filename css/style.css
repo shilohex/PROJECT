@@ -330,14 +330,14 @@ color: #ffffff;
 
 /* designing box */
 #fourboxes{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 95%;
   display: flex;
   justify-content: space-between;
 }
     
 .twobox{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 44%;
     height: 95%;
     display: flex;
@@ -348,7 +348,7 @@ color: #ffffff;
     align-self: end;
 }
 .innerbox{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 47%;
     background-color: #ffffff;
     display: flex;
@@ -366,8 +366,27 @@ color: #ffffff;
 .innerbox p{
     size: 11px;
     font-family: "Roboto", Arial, sans-serif;;
-    color: #747474;
+    color: #747474
+
 }
+.innerbox img{
+    width: 10%;
+}
+/* the design of the center text */
+#centertext{
+    display: flex;
+    flex-direction: column;
+}
+.standard{
+   align-items: center; 
+   justify-content: center;
+   padding: 10px;
+   text-align: center;
+   margin: 8%;
+   gap: 10%;
+}
+
+
 
 
 
