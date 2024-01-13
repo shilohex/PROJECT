@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,300;0,400;1,100&display=swap');
-
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100;0,300;0,400;1,100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
 
 header{
     display: flex;
@@ -279,45 +283,90 @@ color: #ffffff;
 #large{
     background-color: #D0FAF4;
     display: flex;
+    justify-content: space-around;
     border: 1px solid black;
-    height: 600px;
-    position: relative;
-    
+    height: 100vh;
+    width: 100vw;
+    /* position: relative; */
+    align-items: center;
+    justify-content: space-evenly ; 
+     
 }
 #largelogo{
-    border: 1px solid black ;
-    
-    
-
-}
-#logoimg{
+    align-self: end;
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
-    margin-top: 218px;
-    justify-content: end;
-    width: 35%;
-    align-self: baseline;
+    justify-content:end ;
+    gap: 5vh;
+
+}
+#largelogo,#fourboxes{
+    /* border: 1px solid black ; */
+    width: 40%;   
+}
+ #largelogo h1{
+    color: #00b39b;
+  font-weight: 300;
+  font-size: 30px;
+  font-family: "Work Sans", Arial, sans-serif;
+  line-height: 33px;
+ }
+ #largelogo p{
+    color: #747474;
+    font-size: 15px;
+    font-family: "Work Sans", Arial, sans-serif;
+    font-weight: 400;
+    line-height: 21px;
+ }
+#largelogo img{
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* border: 1px solid black; */
+    /* margin-top: 218px; */
+    /* justify-content: end; */
+    width: 85%;
+    /* align-self: baseline; */
 }
 
 /* designing box */
-#box1{
+#fourboxes{
     border: 1px solid black;
-    display: flex;
-
+    height: 95%;
+  display: flex;
+  justify-content: space-between;
 }
-#box2{
+    
+.twobox{
     border: 1px solid black;
+    width: 44%;
+    height: 95%;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-#box3{
-    border: 1px solid black;
-    display: flex;
-
+#firstb{
+    align-self: end;
 }
-#box4{
+.innerbox{
     border: 1px solid black;
+    height: 47%;
+    background-color: #ffffff;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5%;
+}
+.innerbox h1{
+    size: 26px;
+    font-weight: 300;
+    font-family: "Work Sans", Arial, sans-serif;;
+}
+.innerbox p{
+    size: 11px;
+    font-family: "Roboto", Arial, sans-serif;;
+    color: #747474;
 }
 
 
