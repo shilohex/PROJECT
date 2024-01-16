@@ -4,14 +4,14 @@
     margin: 0;
     padding: 0;
 }
-
+/* design of the header */
 header{
     display: flex;
     text-align: center;
     justify-content: space-around;
     gap: 20px;
     align-items: center;
-    padding: 10px;
+    padding: 15px;
 }
 header a{
     text-decoration: none;
@@ -33,6 +33,8 @@ header a{
 text-align: center;  
 padding-top: 15vh;  
 }
+
+/* design of the text */
 section h1{
     color: #00b39b;
     font-family: "Work Sans", Arial, sans-serif;
@@ -60,6 +62,7 @@ section h1{
     font-style: normal;
 
 }
+/* design of the threeblocks */
 #three-blocks{
     display: flex;
     flex-direction: row;
@@ -68,9 +71,8 @@ section h1{
     gap: 25px;   
 }
 
-/* first block design */
 #block1{
-    /* border: 1px solid black; */
+    border: 1px solid black;
     width: 16vw;
     height: 255px;
     background-color:#00CCB1 ;
@@ -108,8 +110,7 @@ section h1{
 
 }
 
-
-/* Second block desing */
+/* second block */
 #block2{
     /* border: 1px solid black; */
     width: 15vw;
@@ -143,7 +144,7 @@ section h1{
     font-size: 21px;
 }
 
-
+/* third block */
 #block3{
     /* border: 1px solid black; */
     width: 15vw;
@@ -319,13 +320,13 @@ color: #ffffff;
     /* border: 1px solid black; */
     height: 95%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
     
 .twobox{
     /* border: 1px solid black; */
-    width: 44%;
-    height: 95%;
+    width: 40%;
+    height: 90%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -336,6 +337,7 @@ color: #ffffff;
 .innerbox{
     /* border: 1px solid black; */
     height: 47%;
+    /* width: 100%; */
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
@@ -345,12 +347,12 @@ color: #ffffff;
     gap: 5%;
 }
 .innerbox h1{
-    size: 26px;
+    font-size: 26px;
     font-weight: 300;
     font-family: "Work Sans", Arial, sans-serif;;
 }
 .innerbox p{
-    size: 11px;
+    font-size: 11px;
     font-family: "Roboto", Arial, sans-serif;;
     color: #747474
 
@@ -373,10 +375,17 @@ color: #ffffff;
 }
 .standard h1{
     gap: 10%;
-    line-height: 30px;
+    line-height: 33px;
+    font-size: 30px;
+    
+}
+.standard p{
+    font-size: 14px;
+    font-family: "Roboto", Arial, sans-serif;;
+    color: #747474 ;
 }
 
-/* design of images */
+/* design of cityimages */
 #section6 {
     display: flex;
     width: 75%;
@@ -391,6 +400,7 @@ color: #ffffff;
     flex-direction: column;
     width: 30%;
     flex-wrap: wrap;
+    row-gap: 5px;
 }
 
  .allpic img{
@@ -457,6 +467,44 @@ color: #ffffff;
 .textin h1{
    color: black; 
 }
+
+/* design of the footer */
+#foottxt{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.ftxt{
+    text-decoration: none;
+    color: #23527c;
+}
+.ftxt p{
+    text-decoration: none;
+    color: #ababab ;
+    font-family: "Roboto", Arial, sans-serif;;
+    font-size: 12px;
+}
+.ftxt a{
+    text-decoration: none;
+    color: #337AB7;
+    font-family: "Roboto", Arial, sans-serif;;
+    font-size: 12px;
+}
+.ftxt a:hover{
+    text-decoration: underline;
+    color: #23527c;
+}
+
+#fftxt p{
+    font-family: "Roboto", Arial, sans-serif;;
+   font-size: 12px;
+    color: #ababab;
+    font-weight: 400;
+}
+
 
 
 
