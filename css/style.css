@@ -72,7 +72,7 @@ section h1{
 }
 
 #block1{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 16vw;
     height: 255px;
     background-color:#00CCB1 ;
